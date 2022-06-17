@@ -1,3 +1,4 @@
+#This script makes boolean-blind sql injections easier, but may require some adaptations since it was exclusively crafted for the StreamIO HTB machines
 import requests
 from requests.structures import CaseInsensitiveDict
 import re

